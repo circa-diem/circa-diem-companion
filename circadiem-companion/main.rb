@@ -53,7 +53,7 @@ module CircaDiem
 
   module ProjectTool
     @@circaDialog = nil;
-        @@url = "http://localhost";
+        @@url = "https://plus.circa-diem.com";
         def self.get_component_by_id(id)
           begin
             Sketchup.active_model.definitions.each do |definition|
